@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/green"
+
+    android:layout_height="match_parent"
+    tools:context=".set_emergency">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Emergency Number"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/contact"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contact Number"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/set"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bbuttonback"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="SET"/>
+
+</LinearLayout>

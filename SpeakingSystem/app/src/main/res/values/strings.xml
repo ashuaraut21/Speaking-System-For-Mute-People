@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Speaking System</string>
+    <string-array name="code">
+
+        <item>00001</item>
+        <item>00010</item>
+        <item>00011</item>
+        <item>00100</item>
+        <item>00101</item>
+        <item>00110</item>
+        <item>00111</item>
+        <item>01000</item>
+        <item>01001</item>
+        <item>01010</item>
+        <item>01011</item>
+        <item>01100</item>
+        <item>01101</item>
+        <item>01110</item>
+        <item>01111</item>
+        <item>10000</item>
+        <item>10001</item>
+        <item>10010</item>
+        <item>10011</item>
+        <item>10100</item>
+        <item>10101</item>
+        <item>10110</item>
+        <item>10111</item>
+        <item>11000</item>
+        <item>11001</item>
+        <item>11010</item>
+        <item>11011</item>
+        <item>11100</item>
+        <item>11101</item>
+        <item>11110</item>
+        <item>11111</item>
+    </string-array>
+</resources>
