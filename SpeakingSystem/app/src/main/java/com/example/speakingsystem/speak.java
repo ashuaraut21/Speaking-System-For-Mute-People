@@ -67,7 +67,7 @@ public class speak extends AppCompatActivity {
             public void run() {
 
                 LedOnOff gettrans = new LedOnOff();
-                String url1 = "http://mahavidyalay.in/AcademicDevelopment/ServerDemo/ShowLed2.php";
+                String url1 = "URL"; //add your url here
                 gettrans.execute(url1);
             }
             }, 0,5000);
