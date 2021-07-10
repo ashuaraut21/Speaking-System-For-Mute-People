@@ -85,7 +85,7 @@ void loop()
    } 
    Serial.println(data);
     HTTPClient http;
-    String url="http://mahavidyalay.in/AcademicDevelopment/ServerDemo/Led2.php?status="+data;
+    String url="URL"+data;//add your URL here
     http.begin(url);
     http.addHeader("Content-Type","text/plain");
     int httpCode=http.GET();
